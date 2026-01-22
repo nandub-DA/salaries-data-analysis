@@ -119,6 +119,6 @@ This project analyses salary data using Power query and Power BI to understand d
 
 ## 8. How to Use
 
-* Open `salaries_report.pbix` in Power BI Desktop to explore the visuals and to view the cleaned data.
+* Open `Payroll_Analysis_Mexico.pbix` in Power BI Desktop to explore the visuals and to view the cleaned data.
 If you want, next I can trim this to **recruiter-optimised length** without changing meaning.
 
