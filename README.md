@@ -103,7 +103,14 @@ This project analyses salary data using Power query and Power BI to understand d
 
 ## 6. Screenshots
 
-(Optional – Add screenshots of Excel and Power BI dashboards.)
+### Page 1: Payroll Overview
+![Payroll Overview](screenshots/Payroll_overview_screenshot.png)
+
+### Page 2: Pay Distribution
+![Pay Distribution](screenshots/Pay_distribution_screenshot.png)
+
+### Page 3: Pay Structure and Variability
+![Pay Structure and Variability](screenshots/Pay_structure_and_variability_screenshot.png)
 
 ## 7. Files Included
 
