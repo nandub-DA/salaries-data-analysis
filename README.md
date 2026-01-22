@@ -97,9 +97,15 @@ This project analyses salary data using Power query and Power BI to understand d
 
 ## 5. Key Insights
 
-* [Insight 1]
-* [Insight 2]
-* [Insight 3]
+* Total gross salary is highly concentrated across a small number of states, with one administrative grouping contributing nearly half of overall payroll. This indicates a strong centralisation of payroll expenditure rather than an even geographic spread.
+* Organisation-level analysis shows a long-tail structure. A small number of large organisations consume a disproportionate share of total payroll, while the majority contribute marginally.
+* Payroll concentration is therefore entity-driven, not evenly distributed across organisations or states. This suggests that payroll risk, cost control, and oversight would be most impactful if focused on a limited subset of entities.
+* When normalised to a daily rate, salary values show a highly right-skewed distribution. Most records fall into lower daily pay bands, while a small fraction extends into very high daily rates.
+* The bulk of employees are concentrated in lower salary-per-day bands, yet these bands still account for the majority of total payroll due to volume.
+* Median daily salary varies meaningfully across states, organisations, and departments, confirming that pay differences are structural, not random.
+* High median daily salaries are not widespread. They are concentrated in a small number of organisations and departments, rather than being common across the dataset.
+* There is no strong relationship between an organisation’s total payroll and its median daily salary. Large payrolls are mostly driven by workforce size, not higher daily pay.
+* Most organisations cluster at low to moderate daily pay and lower payroll levels, while a smaller group accounts for very high payroll or high daily pay, showing structural concentration rather than random outliers.
 
 ## 6. Screenshots
 
