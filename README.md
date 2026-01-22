@@ -12,7 +12,7 @@ This project analyses salary data using Power query and Power BI to understand d
 ## 3. Dataset
 
 * Source: salaries
-* Data contains: STATE, ORGANISATION, DEPARTMENT, JOB_TITLE, PERSON_NAME, NET_SALARY, GROSS_SALARY, REPORT_START_DATE, REPORT_END_DATE
+* Data contains: STATE, ORGANISATION, DEPARTMENT, JOB_TITLE, PERSON_NAME, NET_SALARY, GROSS_SALARY, REPORTING_PERIOD_START, REPORTING_PERIOD_ENDS, INFORMATION_ID
 
 ## 4. Steps Followed
 
