@@ -465,13 +465,16 @@ Workforce segments experiencing the highest deduction burdens are primarily midd
 ## 6. SCREENSHOTS
 
 ### Page 1: Workforce Deduction Burden Overview
-![Workforce Deduction Burden Overview]()
+
+![Workforce Deduction Burden Overview](workforce_deduction_burden_overview.png)
 
 ### Page 2: Organisation-Level Deduction Burden Analysis
-![Organisation-Level Deduction Burden Analysis]()
+
+![Organisation-Level Deduction Burden Analysis](organisation_level_deduction_burden_analysis.png)
 
 ### Page 3: Department and Job Role Deduction Analysis
-![Department and Job Role Deduction Analysis]()
+
+![Department and Job Role Deduction Analysis](department_job_role_deduction_analysis.png)
 
 ## 7. FILES INCLUDED
 
