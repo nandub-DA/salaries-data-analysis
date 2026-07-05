@@ -279,6 +279,7 @@ Very large deductions occur in only a tiny fraction of payroll records. The dedu
 #### BIVARIATE ANALYSIS
 
 * STATES × MEDIAN DEDUCTION RATE
+
 Deduction burden varies significantly across states.
 
 Highest deduction burden states:
@@ -301,60 +302,46 @@ Sinaloa's median deduction rate is 5.14%.
 Employees in Oaxaca experience a typical deduction burden that is more than six times higher than employees in Sinaloa. This suggests substantial regional differences in payroll structures, compensation policies, or  deductions. Deduction burden is not evenly distributed across the country. Certain states consistently experience higher payroll deductions than others.
 
 * ORGANISATIONS × MEDIAN DEDUCTION RATE
-Most organizations are clustered below 5,000 transactions.
-A small number of organizations have very large transaction volumes (20k, 50k, 100k+).
-The organizations with extreme deduction rates (60%, 80%, 100%) have very few transactions.
-The high-volume organizations are mostly concentrated between 10% and 30% median deduction rate. Therefore, organization-level deduction analysis should focus on organizations with sufficient transaction volume to ensure reliable comparisons.
 
-The highest organization-level deduction rates are largely driven by organizations with very small transaction counts.
-This means:
-Organization rankings based solely on median deduction rate are unreliable because many of the top-ranked organizations have too few payroll records to represent a stable pattern.
-
-But there is no obvious relationship between organization size and deduction rate.
-If larger organizations systematically had higher deduction rates, it must be trending upward as transaction count increases.
-Instead, high-volume organizations appear spread around roughly 10% to 30% deduction rate.
-Deduction burden does not appear to increase with organization transaction volume. High and low deduction rates can be observed across organizations of different sizes.
-
-The overall median deduction rate is 19.01%. Restricting the analysis to organizations with at least 500 transactions produces a similar median deduction rate of 19.26%.
-The similarity between these values suggests that excluding small organizations has little impact on the overall deduction rate distribution. The transaction threshold primarily improves the reliability of organization-level comparisons rather than changing the overall deduction burden pattern.
-
-Several organizations exhibited median deduction rates of 100%. Investigation revealed that these organizations contained predominantly zero or blank net salary values despite having positive gross salary values. As a result, the calculated deduction rates reflect data availability issues or payroll anomalies rather than genuine payroll deduction patterns.
-
-So organizations with substantial proportions of zero or blank net salary records were excluded from organization-level deduction burden analysis to ensure meaningful comparisons.
-
-Organization-based analysis shows that payroll deduction burden varies considerably across organizations. After restricting the analysis to organizations with at least 500 payroll transactions, the benchmark median deduction rate was 19.26%. Several organizations recorded median deduction rates above 30%, indicating that employees in these organizations experience substantially higher payroll deductions relative to their gross earnings than the typical employee in medium and large organizations. Educational organizations seems to have the highest deduction burden.
+1. Most organizations are clustered below 5,000 transactions.
+2. A small number of organizations have very large transaction volumes (20k, 50k, 100k+).
+3. The organizations with extreme deduction rates (60%, 80%, 100%) have very few transactions.
+4. The high-volume organizations are mostly concentrated between 10% and 30% median deduction rate. Therefore, organization-level deduction analysis should focus on organizations with sufficient transaction volume to ensure reliable comparisons.
+5. The highest organization-level deduction rates are largely driven by organizations with very small transaction counts. This means organization rankings based solely on median deduction rate are unreliable because many of the top-ranked organizations have too few payroll records to represent a stable pattern.
+6. But there is no obvious relationship between organization size and deduction rate. If larger organizations systematically had higher deduction rates, it must be trending upward as transaction count increases. Instead, high-volume organizations appear spread around roughly 10% to 30% deduction rate. Deduction burden does not appear to increase with organization transaction volume. High and low deduction rates can be observed across organizations of different sizes.
+7. The overall median deduction rate is 19.01%. Restricting the analysis to organizations with at least 500 transactions produces a similar median deduction rate of 19.26%. The similarity between these values suggests that excluding small organizations has little impact on the overall deduction rate distribution. The transaction threshold primarily improves the reliability of organization-level comparisons rather than changing the overall deduction burden pattern.
+8. Several organizations exhibited median deduction rates of 100%. Investigation revealed that these organizations contained predominantly zero or blank net salary values despite having positive gross salary values. As a result, the calculated deduction rates reflect data availability issues or payroll anomalies rather than genuine payroll deduction patterns. So organizations with substantial proportions of zero or blank net salary records were excluded from organization-level deduction burden analysis to ensure meaningful comparisons.
+9. Organization-based analysis shows that payroll deduction burden varies considerably across organizations. After restricting the analysis to organizations with at least 500 payroll transactions, the benchmark median deduction rate was 19.26%. Several organizations recorded median deduction rates above 30%, indicating that employees in these organizations experience substantially higher payroll deductions relative to their gross earnings than the typical employee in medium and large organizations. Educational organizations seems to have the highest deduction burden.
 
 * GROSS SALARY BANDS × MEDIAN DEDUCTION RATE
-High-income salary bands represent a very small workforce segment. Only 277 transactions fall in the 25,000–50,000 band and 104 transactions fall in the 50,000+ band.
-
-Employees in the gross salary bands between 500 and 2500 per day experience the highest deduction burden. The 1000-2500 band has the highest median deduction rate (25.22%), closely followed by the 500-1000 band (24.99%).
-These findings are supported by more than 150,000 payroll transactions combined, making them both statistically reliable and operationally significant.
-
-Employees in higher salary bands (5000-25000 per day) experience substantially lower median deduction rates, ranging from approximately 14% to 16%.
+1. High-income salary bands represent a very small workforce segment. Only 277 transactions fall in the 25,000–50,000 band and 104 transactions fall in the 50,000+ band.
+2. Employees in the gross salary bands between 500 and 2500 per day experience the highest deduction burden. The 1000-2500 band has the highest median deduction rate (25.22%), closely followed by the 500-1000 band (24.99%). These findings are supported by more than 150,000 payroll transactions combined, making them both statistically reliable and operationally significant.
+3. Employees in higher salary bands (5000-25000 per day) experience substantially lower median deduction rates, ranging from approximately 14% to 16%.
 This suggests that the greatest deduction burden falls on middle-income payroll segments rather than the lowest-paid or highest-paid employees.
 
 * DEPARTMENT × MEDIAN DEDUCTION RATE
 1. A lot of departments have 100 median deduction rate and has very few transactios in most
 2. Employees in several large education-related departments exhibit median deduction rates above 30% which is significantly higher than the overall department benchmark of 19.01%, including:
-Dirección General de Operaciones de Servicios Educativos Iztapalapa (35.00%)
-Coordinación Sectorial de Educación Preescolar (31.17%)
-Departamento de Educación Primaria Tijuana (31.19%)
-Dirección de Educación Primaria (30.67%)
-These departments are supported by thousands of payroll transactions.
 
-This suggests that deduction burden is not distributed uniformly across departments and may be associated with differences in workforce composition, compensation structures, or payroll policies.
+Dirección General de Operaciones de Servicios Educativos Iztapalapa (35.00%)
+
+Coordinación Sectorial de Educación Preescolar (31.17%)
+
+Departamento de Educación Primaria Tijuana (31.19%)
+
+Dirección de Educación Primaria (30.67%)
+
+These departments are supported by thousands of payroll transactions. This suggests that deduction burden is not distributed uniformly across departments and may be associated with differences in workforce composition, compensation structures, or payroll policies.
 
 * JOB TITLE × MEDIAN DEDUCTION RATE
 1. Teaching, educational, and administrative roles such as Técnico Superior (46.63%), Maestro de Grupo de Primaria (28.63%), Jefe de Oficina (26.14%), and Docente (23.81%) exhibit deduction rates above the workforce median of 19.01%.
-
 2. Operational and healthcare-related roles such as Operativo (9.30%), Enfermera General 80 (4.55%), and Médico No Familiar 80 (8.81%) exhibit substantially lower deduction rates.
 
 #### MULTIVARIATE ANALYSIS
 
 * STATE × GROSS SALARY BAND × MEDIAN DEDUCTION RATE
-State-level differences in deduction burden persist after controlling for gross salary bands. States such as Oaxaca and Jalisco consistently exhibit higher deduction rates than states such as Hidalgo and Sinaloa within comparable salary groups.
-
-The variation in payroll deduction burden cannot be explained by salary level alone. Both geographic location (state) and salary band appear to influence deduction rates. This indicates that employees with similar earnings may experience substantially different deduction burdens depending on the state in which they are employed.
+1. State-level differences in deduction burden persist after controlling for gross salary bands. States such as Oaxaca and Jalisco consistently exhibit higher deduction rates than states such as Hidalgo and Sinaloa within comparable salary groups.
+2. The variation in payroll deduction burden cannot be explained by salary level alone. Both geographic location (state) and salary band appear to influence deduction rates. This indicates that employees with similar earnings may experience substantially different deduction burdens depending on the state in which they are employed.
 
 ### DATA VISUALIZATION
 
