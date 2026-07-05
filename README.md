@@ -153,6 +153,7 @@ The most common period lengths are:
 90 days- 9.40%
 
 Together these represent around 77% of transactions.
+
 3. The payroll system appears to use a mix of reporting cycles
 
 Common durations include:
@@ -184,6 +185,7 @@ semi-annual reporting periods
 annual reporting periods
 
 This indicates that organizations follow multiple payroll reporting schedules.
+
 4. Need for Salary Normalization
 The large variation in reporting period length indicates that payroll transactions do not follow a single standardized duration. As a result, direct comparison of gross salary and net salary values would be misleading, which justifies the use of daily salary normalization for compensation analysis.
 5. Duration distribution is right-skewed
@@ -223,6 +225,7 @@ Q3 = 188.13 per day
 IQR = 133.98
 
 50% of all payroll records have daily net salaries between approximately 54 and 188 per day. A typical employee receives less than 100 per day in net compensation.
+
 3. The salary distribution is strongly right-skewed
 
 Mean = 183.35
@@ -232,13 +235,14 @@ Median = 99.39
 Maximum = 131,513.11
 
 The average daily salary is substantially higher than the median because a small number of very high salary records pull the average upward. The mean does not represent the typical employee well in this dataset. Extreme high-salary records are present.
+
 4. Salary variation for a typical employee is moderate
 
 Median Absolute Deviation = 60.07
 
 A typical payroll record differs from the median daily salary by about 60 per day. This suggests that most employees earn salaries reasonably close to the typical compensation level, despite the presence of extreme high-salary records. This is a more representative measure of spread than standard deviation because the distribution is heavily skewed.
-5. Very high salary bands represent a tiny fraction of records
 
+5. Very high salary bands represent a tiny fraction of records
 
 0.10% between 2,501–5,000
 
@@ -251,11 +255,13 @@ A typical payroll record differs from the median daily salary by about 60 per da
 0.003% above 50,000
 
 Very high daily salaries are extremely rare. The payroll structure is dominated by lower and middle salary levels, while high earners form only a small tail of the distribution.
+
 6. Zero-salary records are uncommon
 
 1.23% of records have a net salary per day of zero.
 
 Zero net salary records represent a small portion of the dataset. These may reflect cases where deductions or recoveries reduced take-home pay to zero, or other special payroll situations or data quality issue.
+
 7. The dataset contains substantial salary diversity. 680,956 distinct daily salary values. The large number of unique salary values indicates a highly granular compensation structure rather than a small number of standardized pay rates.
 
 * GROS SALARY PER DAY
@@ -273,11 +279,13 @@ Q3 = 232.35
 IQR = 165.48
 
 The middle 50% of payroll records have daily gross salaries between approximately 67 and 232 per day. This indicates that most employees receive compensation within a relatively concentrated range.
+
 4. Typical salary variation is moderate
 
 MAD = 66.96
 
 A typical payroll record differs from the median gross salary by about 67 per day. This suggests that most employees earn salaries reasonably close to the typical compensation level despite the presence of a few extremely high salary records.
+
 5. The distribution is strongly right-skewed. Extreme high-salary records are present
 
 Mean = 229.71
@@ -289,6 +297,7 @@ Maximum = 189,415 per day
 Range = 189,414.94
 
 The average daily gross salary is almost twice the median. This indicates that a relatively small number of high-salary records significantly increase the overall average while most employees earn substantially less.
+
 7. Compensation levels are highly diverse. 456,534 distinct daily gross salary values. The large number of unique salary values indicates a highly granular compensation structure with substantial variation across employees, organizations, departments, and job roles.
 8. High salary bands contain very few records
 
@@ -312,6 +321,7 @@ Very high compensation levels are extremely uncommon. The payroll system is over
 20.91% fall in the 25–50 band.
 
 The majority of employees experience relatively small daily deductions. Large deduction amounts exist but are concentrated in a small portion of payroll records.
+
 2. The typical deduction is modest
 
 Median = 23.41
@@ -321,16 +331,19 @@ Q1 = 9.59
 Q3 = 53.00
 
 A typical payroll record has a daily deduction of about 23. Most employees experience deductions well below 100 per day.
+
 3. Half of all payroll records have deductions between 9.59 and 53
 
 IQR = 43.41
 
 The middle 50% of payroll records have deductions between approximately 10 and 53 per day, indicating that deduction amounts are fairly concentrated around lower values.
+
 4. Typical variation in deductions is relatively small
 
 MAD = 19.06
 
 A typical payroll record differs from the median deduction by about 19 per day. This suggests that most employees experience deduction amounts reasonably close to the typical level. This is a more representative measure of spread than the range because the distribution contains extreme values.
+
 5. The deduction distribution is strongly right-skewed. Extreme deduction values exist
 
 Mean = 56.84
@@ -343,6 +356,7 @@ Range = 119,670.45
 
 The average deduction is more than twice the median deduction, indicating that a relatively small number of records with large deductions pull the average upward.
 The mean does not represent the typical employee particularly well.
+
 7. Zero deductions are relatively uncommon. Only 2.72% of payroll records have zero deductions. Most employees experience some level of payroll deduction. Records with no deductions represent a small minority of payroll transactions.
 8. High deduction amounts are rare. 0.69% of records have deductions between 500 and 1000. Only 0.26% exceed 1000. Very large deductions occur in only a tiny fraction of payroll records. The deduction structure is dominated by low and moderate deduction amounts.
 9. Deduction amounts are highly granular
